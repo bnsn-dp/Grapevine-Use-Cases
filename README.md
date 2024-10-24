@@ -59,30 +59,36 @@
 ## 6. View Post
 - Description: The user can select a post to view it in more detail
 - System: The post view of the system's web app
-- Precondition: The user is on the Home View
+- Precondition: The user needs to be accessing the Home View
 - Actors: A user wanting to view a specific post
 - Basic Flow:
   1. The user clicks or otherwise selects a post
   2. The system displays the Post View pop-up
-- Alternate Flow: The user can be on an Account view or Community view, which automatically filters what posts are visible
+- Alternate Flow: The user can be accessing a search result, Account view or Community view, which automatically filters what posts are visible
 - Exception Flow: If the user clicks an X icon, the pop-up closes
 - Post-conditions: The user can view and make comments and engage with a post.
 ## 7. View Account
 - Description: The user can select an account to view it in more detail
 - System: The account view of the system's web app
-- Precondition: The user needs to access the system online
+- Precondition: The user needs to be accessing a Home view
 - Actors: A user wanting to view a specific account
 - Basic Flow:
-- Exception Flow:
-- Post-conditions:
+  1. The user clicks or selects an account link
+  2. The system presents the account view
+- Alternate Flow: The user can be accessing a search result, a Post View or a Community View. If the user is logged in and viewing their own account, they have the additional option to change their bio
+- Exception Flow: N/A
+- Post-conditions: The user can view all of the account's posts
 ## 8. View Community
 - Description: The user can select a community to view all posts that are part of it
 - System: The community view of the system's web app
-- Precondition: The user needs to access the system online
+- Precondition: The user needs to be accessing the Home View
 - Actors: A user wanting to view a specific community
 - Basic Flow:
-- Exception Flow:
-- Post-conditions:
+  1. The user clicks or selects a community link
+  2. The system presents the community view 
+- Alternate Flow: The user can be accessing a search result or a post view. If they are logged in, they are presented with additional options to join or leave the community based on their existing status with the community 
+- Exception Flow: N/A
+- Post-conditions: The user can view all posts that reference the community
 # Signed-in Users
 
 # Communities
