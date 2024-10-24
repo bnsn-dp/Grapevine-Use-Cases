@@ -23,12 +23,54 @@
   4. If the credentials are valid, the system generates a new authenticated session token
 - Exception Flow: If the information provided was invalid, the system returns to step 1, notifying the user of what information provided was invalid
 - Post-conditions: The system presents the Home View
-## 3. View Post
-## 4. View Other Account
-## 5. View Community
-## 6. Search Posts
-## 7. Search Accounts
-## 8. Search Communities
+## 3. Search Post
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Exception Flow:
+- Post-conditions:
+## 4. Search Account
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Exception Flow:
+- Post-conditions:
+## 5. Search Community
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Exception Flow:
+- Post-conditions:
+## 6. View Posts
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Exception Flow:
+- Post-conditions:
+## 7. View Account
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Exception Flow:
+- Post-conditions:
+## 8. View Communities
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Exception Flow:
+- Post-conditions:
 # Signed-in Users
 
 # Communities
