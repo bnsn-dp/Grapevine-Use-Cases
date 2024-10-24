@@ -11,13 +11,13 @@
   4. If the information provided is valid, the system automatically logs the user in to their account
 - Exception Flow: If the information provided is invalid, the system returns to step 1, outlining what information provided was invalid
 - Post-conditions: The system presents the Home View
-2. Login
-3. View Post
-4. View Other Account
-5. View Community
-6. Search Posts
-7. Search Accounts
-8. Search Communities
+## Login
+## View Post
+## View Other Account
+## View Community
+## Search Posts
+## Search Accounts
+## Search Communities
 # Signed-in Users
 
 # Communities
