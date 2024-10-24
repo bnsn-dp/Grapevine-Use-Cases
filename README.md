@@ -27,7 +27,7 @@
 - Description: The user can search for specific posts using the description
 - System: The search bar component
 - Precondition: The user needs to access the system online
-- Actors: A user wanting to view a specific post
+- Actors: A user wanting to find a specific post
 - Basic Flow:
   1. The system presents an input field
   2. The user provides a search term
@@ -38,7 +38,7 @@
 - Description: The user can search for specific accounts using their username
 - System: The search bar component
 - Precondition: The user needs to access the system online
-- Actors: A user wanting to view a specific account
+- Actors: A user wanting to find a specific account
 - Basic Flow:
   1. The system presents an input field
   2. The user provides a search term
@@ -49,34 +49,37 @@
 - Description: The user can search for specific communities using their name 
 - System: The search bar component
 - Precondition: The user needs to access the system online
-- Actors: A user wanting to view a specific community
+- Actors: A user wanting to find a specific community
 - Basic Flow:
   1. The system presents an input field
   2. The user provides a search term
   3. The system returns a list of communities that contain the search term in their bio
 - Exception Flow: If the user clicks outside of the pop-up, the pop-up closes and empties the input field
 - Post-conditions: The user can select a return result to view it
-## 6. View Posts
-- Description:
-- System:
-- Precondition:
-- Actors:
+## 6. View Post
+- Description: The user can select a post to view it in more detail
+- System: The post view of the system's web app
+- Precondition: The user is on the Home View
+- Actors: A user wanting to view a specific post
 - Basic Flow:
-- Exception Flow:
-- Post-conditions:
+  1. The user clicks or otherwise selects a post
+  2. The system displays the Post View pop-up
+- Alternate Flow: The user can be on an Account view or Community view, which automatically filters what posts are visible
+- Exception Flow: If the user clicks an X icon, the pop-up closes
+- Post-conditions: The user can view and make comments and engage with a post.
 ## 7. View Account
-- Description:
-- System:
-- Precondition:
-- Actors:
+- Description: The user can select an account to view it in more detail
+- System: The account view of the system's web app
+- Precondition: The user needs to access the system online
+- Actors: A user wanting to view a specific account
 - Basic Flow:
 - Exception Flow:
 - Post-conditions:
-## 8. View Communities
-- Description:
-- System:
-- Precondition:
-- Actors:
+## 8. View Community
+- Description: The user can select a community to view all posts that are part of it
+- System: The community view of the system's web app
+- Precondition: The user needs to access the system online
+- Actors: A user wanting to view a specific community
 - Basic Flow:
 - Exception Flow:
 - Post-conditions:
