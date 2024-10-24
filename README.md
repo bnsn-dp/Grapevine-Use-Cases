@@ -24,29 +24,38 @@
 - Exception Flow: If the information provided was invalid, the system returns to step 1, notifying the user of what information provided was invalid
 - Post-conditions: The system presents the Home View
 ## 3. Search Post
-- Description:
-- System:
-- Precondition:
-- Actors:
+- Description: The user can search for specific posts using the description
+- System: The search bar component
+- Precondition: The user needs to access the system online
+- Actors: A user wanting to view a specific post
 - Basic Flow:
-- Exception Flow:
-- Post-conditions:
+  1. The system presents an input field
+  2. The user provides a search term
+  3. The system returns a list of posts that contain the search term
+- Exception Flow: If the user clicks outside of the pop-up, the pop-up closes and empties the input field
+- Post-conditions: The user can select a return result to view it
 ## 4. Search Account
-- Description:
-- System:
-- Precondition:
-- Actors:
+- Description: The user can search for specific accounts using their username
+- System: The search bar component
+- Precondition: The user needs to access the system online
+- Actors: A user wanting to view a specific account
 - Basic Flow:
-- Exception Flow:
-- Post-conditions:
+  1. The system presents an input field
+  2. The user provides a search term
+  3. The system returns a list of accounts that contain the search term in their username
+- Exception Flow: If the user clicks outside of the pop-up, the pop-up closes and empties the input field
+- Post-conditions: The user can select a return result to view it
 ## 5. Search Community
-- Description:
-- System:
-- Precondition:
-- Actors:
+- Description: The user can search for specific communities using their name 
+- System: The search bar component
+- Precondition: The user needs to access the system online
+- Actors: A user wanting to view a specific community
 - Basic Flow:
-- Exception Flow:
-- Post-conditions:
+  1. The system presents an input field
+  2. The user provides a search term
+  3. The system returns a list of communities that contain the search term in their bio
+- Exception Flow: If the user clicks outside of the pop-up, the pop-up closes and empties the input field
+- Post-conditions: The user can select a return result to view it
 ## 6. View Posts
 - Description:
 - System:
