@@ -90,5 +90,192 @@
 - Exception Flow: N/A
 - Post-conditions: The user can view all posts that reference the community
 # Signed-in Users
-
-# Communities
+## 9. Account, Set Profile Picture
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 10. Account, Set Bio
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 11. Post, Make
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 12. Post, Delete
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 13. Post, Share
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 14. Post, Upvote
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 15. Post, Downvote
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 16. Comment, Make
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 17. Comment, Delete
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 18. Comment, Share
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 19. Comment, Upvote
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 20. Comment, Downvote
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 21. Community, Make
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 22. Community, Delete
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 23. Community, Join
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 24. Community, Leave
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 25. Friend, Request
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 26. Friend, Accept
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 27. Friend, Reject
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 28. Friend, Message
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 29. Block User
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
