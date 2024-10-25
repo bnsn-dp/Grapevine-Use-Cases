@@ -108,7 +108,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 11. Post, Make
+## 11. Account, Logout
 - Description:
 - System:
 - Precondition:
@@ -117,7 +117,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 12. Post, Delete
+## 12. Account, Delete
 - Description:
 - System:
 - Precondition:
@@ -126,7 +126,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 13. Post, Share
+## 13. Post, Make
 - Description:
 - System:
 - Precondition:
@@ -135,7 +135,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 14. Post, Upvote
+## 14. Post, Delete
 - Description:
 - System:
 - Precondition:
@@ -144,7 +144,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 15. Post, Downvote
+## 15. Post, Share
 - Description:
 - System:
 - Precondition:
@@ -153,7 +153,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 16. Comment, Make
+## 16. Post, Upvote
 - Description:
 - System:
 - Precondition:
@@ -162,7 +162,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 17. Comment, Delete
+## 17. Post, Downvote
 - Description:
 - System:
 - Precondition:
@@ -171,7 +171,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 18. Comment, Share
+## 18. Comment, Make
 - Description:
 - System:
 - Precondition:
@@ -180,7 +180,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 19. Comment, Upvote
+## 19. Comment, Delete
 - Description:
 - System:
 - Precondition:
@@ -189,7 +189,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 20. Comment, Downvote
+## 20. Comment, Share
 - Description:
 - System:
 - Precondition:
@@ -198,7 +198,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 21. Community, Make
+## 21. Comment, Upvote
 - Description:
 - System:
 - Precondition:
@@ -207,7 +207,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 22. Community, Delete
+## 22. Comment, Downvote
 - Description:
 - System:
 - Precondition:
@@ -216,7 +216,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 23. Community, Join
+## 23. Community, Make
 - Description:
 - System:
 - Precondition:
@@ -225,7 +225,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 24. Community, Leave
+## 24. Community, Delete
 - Description:
 - System:
 - Precondition:
@@ -234,7 +234,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 25. Friend, Request
+## 25. Community, Join
 - Description:
 - System:
 - Precondition:
@@ -243,7 +243,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 26. Friend, Accept
+## 26. Community, Leave
 - Description:
 - System:
 - Precondition:
@@ -252,7 +252,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 27. Friend, Reject
+## 27. Friend, Request
 - Description:
 - System:
 - Precondition:
@@ -261,7 +261,7 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 28. Friend, Message
+## 28. Friend, Accept
 - Description:
 - System:
 - Precondition:
@@ -270,7 +270,25 @@
 - Alternate Flow:
 - Exception Flow:
 - Post-condition:
-## 29. Block User
+## 29. Friend, Reject
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 30. Friend, Message
+- Description:
+- System:
+- Precondition:
+- Actors:
+- Basic Flow:
+- Alternate Flow:
+- Exception Flow:
+- Post-condition:
+## 31. Block User
 - Description:
 - System:
 - Precondition:
