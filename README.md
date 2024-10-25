@@ -91,23 +91,31 @@
 - Post-conditions: The user can view all posts that reference the community
 # Signed-in Users
 ## 9. Account, Set Profile Picture
-- Description:
-- System:
-- Precondition:
-- Actors:
+- Description: A logged-in user can upload a custom profile picture to represent themselves
+- System: The account view of the system's web app
+- Precondition: The user must be viewing their own account page
+- Actors: A logged-in user wanting to change their profile picture
 - Basic Flow:
-- Alternate Flow:
-- Exception Flow:
-- Post-condition:
+  1. The user clicks or selects their current profile picture
+  2. The system displays a file upload popup
+  3. The user uploads a .png or .jpg file
+  4. The system closes the file upload popup and displays an image crop popup
+  5. The user crops the image
+  7. The system closes the image crop popup and updates the database
+- Exception Flow: If the user ever clicks outside of a popup or uploads an invalid data type, the system closes all pop-ups and displays any errors.
+- Post-condition: The uploaded image is visible on the user's account view
 ## 10. Account, Set Bio
-- Description:
-- System:
-- Precondition:
-- Actors:
+- Description: A logged-in user can display a block of text on their account above their posts
+- System: The account view of the system's web app
+- Precondition: The user must be viewing their own account page
+- Actors: A logged-in uver wanting to change their bio
 - Basic Flow:
-- Alternate Flow:
-- Exception Flow:
-- Post-condition:
+  1. The user clicks or selects the "edit bio" button
+  2. The system opens a text input field in place of where the bio once was
+  3. The user provides text data to the field and selects a "Save Bio" button
+  4. The system closes the input field and updates the database
+- Exception Flow: The system provides a "Cancel" button, which the user can select to exit the process
+- Post-condition: The new bio is displayed on the user's account above their posts
 ## 11. Account, Logout
 - Description:
 - System:
